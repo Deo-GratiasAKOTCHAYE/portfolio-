@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>citations</title>
+    <style>
+         :root {
+            --color-primary: #0a0a0a;
+            --color-accent: #00f0ff;
+            --color-accent-2: #ff00f0;
+            --font-title: 'Orbitron', sans-serif;
+            --font-text: 'Poppins', sans-serif;
+        }
+        body {
+            background: radial-gradient(circle, #1a1a2e, #16213e);
+            color: white;
+            font-family: var(--font-text);
+            margin: 0;
+            overflow-x: hidden;
+            align-items: center;
+            text-align: center;
+        }
+        .citations-section {
+            padding: 80px 20px;
+            background: linear-gradient(to right, #1e293b, #0f172a);
+        }
+
+        .citations-section h2 {
+            font-size: 2.5rem;
+            margin-bottom: 40px;
+            color: #00ffe0;
+            text-shadow: 0 0 10px rgba(0, 255, 224, 0.3);
+        }
+
+        .citations-container {
+            max-width: 900px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+        }
+
+        .citations-container blockquote {
+            font-style: italic;
+            font-size: 1.2rem;
+            background: rgba(255, 255, 255, 0.05);
+            padding: 25px 30px;
+            border-left: 5px solid #00ffe0;
+            border-radius: 10px;
+            box-shadow: 0 8px 20px rgba(0, 255, 204, 0.08);
+            transition: transform 0.3s ease;
+        }
+
+        .citations-container blockquote:hover {
+            transform: scale(1.02);
+            background: rgba(255, 255, 255, 0.08);
+        }
+
+    </style>
+</head>
+<body>
+    <section class="citations-section">
+        <h2>✨ Citations auxquelles je crois ✨</h2>
+        <div class="citations-container">
+            <blockquote>"Le succès n'est pas final, l'échec n'est pas fatal : c'est le courage de continuer qui compte."</blockquote>
+            <blockquote>"Le seul endroit où le succès vient avant le travail, c'est dans le dictionnaire."</blockquote>
+            <blockquote>"Chaque pas, même petit, te rapproche de ton objectif."</blockquote>
+            <blockquote>"Rêve grand, travaille dur, reste humble."</blockquote>
+            <blockquote>"La discipline est le pont entre les rêves et leur réalisation."</blockquote>
+            <blockquote>"Ta seule limite, c'est celle que tu t'imposes."</blockquote>
+        </div>
+    </section>
+</body>
+</html>
